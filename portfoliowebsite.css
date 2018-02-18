@@ -1,0 +1,110 @@
+/* #660099-purple
+#CC000-red */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #CC0000;
+    float: left;
+		align: center;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid  #660099;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+		align:  center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.topcolumn {
+	padding-bottom: 200px;
+}
+
+div.bottomcolumn {
+	align: left;
+	padding-bottom: 150px;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+  font-family: 'Berkshire Swash', cursive;
+  color: #CC0000;
+}
+
+h1 {
+  font-size: 75px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+	color: #660099;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+h3 {
+	padding-left: 150px;
+	padding-right: 100px;
+}
+ul, li {
+  font-size: 30px;
+  text-align: top, center;
+  display: inline-block;
+  padding-right: 60px;
+	padding-bottom: 20px;
+	color: red;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+div.header {
+  padding-top: 100px;
+  padding-bottom: 500px;
+	align: left;
+}
+
+body {
+	background-color:  black;
+	font: 16px 'Berkshire Swash'; color: #CC0000 ; line-height: 24px;
+	padding-left: 300px;
+}
+
+footer {
+padding-right: 60px;
+}
